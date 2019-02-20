@@ -17,9 +17,11 @@
     "hubot-rules": "^1.0.0",
     "hubot-ryver": "^0.1.3",
     "hubot-scripts": "^2.17.2",
-    "hubot-shipit": "^0.2.1"
+    "hubot-shipit": "^0.2.1",
+    "node": "^11.10.0"
   },
   "engines": {
-    "node": "0.10.x"
+    "node": "0.8.x",
+    "npm": "1.1.x"
   }
 }
