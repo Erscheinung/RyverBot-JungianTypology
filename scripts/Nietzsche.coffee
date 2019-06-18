@@ -27,4 +27,4 @@ module.exports = (robot) ->
     ]
     
     robot.hear /Nietzsche/i, (res) ->
-        res.send(quote[Math.floor(Math.random()* quote.length))
+        res.send(quote[Math.floor(Math.random()* quote.length)])
