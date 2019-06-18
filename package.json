@@ -5,7 +5,7 @@
   "author": "relight",
   "description": "Ryver Bot for jungiantypology",
   "dependencies": {
-    "hubot": "^3.3.0",
+    "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
     "hubot-google-translate": "^0.2.1",

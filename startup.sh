@@ -6,7 +6,7 @@ env HUBOT_IP='10.1.255.10'
 env HUBOT_NAME='carl'
 env HUBOT_LOG_LEVEL='debug'
 env HUBOT_RYVER_USERNAME='carl'
-env HUBOT_RYVER_PASSWORD=''
+env HUBOT_RYVER_PASSWORD='Junglove1'
 env HUBOT_RYVER_APP_URL='jungiantypology.ryver.com'
 env HUBOT_RYVER_JOIN_FORUMS='yes'
 
