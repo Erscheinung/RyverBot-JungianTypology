@@ -1,6 +1,6 @@
 module.exports = (robot) ->
 
-  var warning = "Please remain civil and do not use these slurs. You have been warned."
+  warning = "Please remain civil and do not use these slurs. You have been warned."
 
   robot.hear /tranny/i, (res) -> res.send(warning)
   robot.hear /homo/i, (res) -> res.send(warning)
