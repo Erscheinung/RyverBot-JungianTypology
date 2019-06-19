@@ -9,5 +9,6 @@ module.exports = (robot) ->
     robot.hear /dichotomy map/i, (res) ->
         res.send("[All structural Dichotomies](https://imgur.com/a/o7ESnft)")
 
-    
+    robot.hear /bot guide/i (res) ->
+    	res.send("[Visit this Topic](https://jungiantypology.ryver.com/#posts/2126699)")
     
