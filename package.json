@@ -19,6 +19,7 @@
     "hubot-ryver": "^0.1.3",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
+    "hubot-voting": "^1.1.0",
     "node": "^11.10.0"
   },
   "engines": {
