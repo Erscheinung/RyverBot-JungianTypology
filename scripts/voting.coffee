@@ -1,8 +1,9 @@
 module.exports = (robot) ->
   robot.voting = {}
 
-  robot.hear /^start vote (.+)$/i, (msg) ->
+  robot.hear /start vote (.+)$/i, (msg) ->
     startVote(msg)
+    msg.finish()
 
   robot.hear /start multivote (.+)$/i, (msg) ->
     startVote(msg, true)
