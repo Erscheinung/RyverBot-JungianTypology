@@ -1,25 +1,54 @@
 module.exports = (robot) ->
 
     quote = [
+        "Pity is praised as the virtue of prostitues.",
+        "My formula for greatness in a human being is amor fati: that one wants nothing to be different, not forward, not backward, not in all eternity. Not merely bear what is necessary, still less conceal it—all idealism is mendacity in the face of what is necessary—but love it",
+        "If we affirm one single moment, we thus affirm not only ourselves but all existence. For nothing is self-sufficient, neither in us ourselves nor in things; and if our soul has trembled with happiness and sounded like a harp string just once, all eternity was needed to produce this one event—and in this single moment of affirmation all eternity was called good, redeemed, justified, and affirmed",
+        "One must renounce the bad taste of wishing to agree with many people.",
+        "Only the highest and most active animals are capable of being bored. The boredom of God on the seventh day of Creation would be a subject for a great poet.",
+        "Ah, how little you know of human happiness - you comfortable and benevolent people! For happiness and unhappiness are brother and sister - or even twins who grow up together - or in your case - remain small together!",
+        "However unchristian it may seem, I do not even bear any ill feeling towards myself.",
+        "Over the door of the thinker of the future is written: “What do I matter“?",
+        "Once blasphemy again God was the greatest blasphemy; but God died, and thereupon those blasphemers died too.",
         "It is the slave in the vain man's blood, the remains of the slave's craftiness - and how much of the slave is still left in woman, for instance!",
         "In the background of all their personal vanity, women themselves have still their impersonal scorn - for woman",
         "Where there is neither love nor hatred in the game woman is a mediocre player.",
-        
+        "What is done out of love always takes place beyond good and evil.",
+        "He who cannot lie, does not know what truth is.",
+        "I am afraid we are not rid of God because we still have faith in grammar.",
+        "Love is the state in which man sees things most decidedly as they are not.",
+        "One does not hate as long as one disesteems, but only when one esteems equal or superior.",
         "In revenge and in love woman is more barbarous than man.",
-        
+        "What was formerly merely sickly now becomes indecent : it is indecent to be a Christian today.",
+        "Virtue has come to consist in doing something in a shorter time than another person.",
+        "And I offer you this parable: Not a few who sought to cast out their devil entered into the swine themselves.",
+        "The very word 'Christianity' is a misunderstanding at bottom there was only one Christian, and he died on the cross.",
+        "There is always some madness in love. But there is always, also, some method in madness.",
+        "And what is 'reality' to an enamoured artist!",
+        "No quote for you this time, huehuehue",
+        "Once had you passions and called them evil. But now you have only your virtues: they grew out of your passions.",
+        "Of all that is written, I love only what a person has written with his blood.",
+        "'Faith' means the will to avoid knowing what is true.",
         "All women all like me. But that’s an old story: except of course the abortive ones, the emancipated ones who are simply not up to having children.",
-        
+        "One repays a teacher badly if one remains only a pupil.",
+        "He who is a thorough teacher takes things seriously - and even himself - only in relation to his pupils.",
+        "Truth must either attract power to its side or else side with power for otherwise it will perish again and again.",
+        "If one is sufficiently rich for it it may even be a joy to be wrong.",
+        "I am no bot, I am dynamite.",
         "A little woman pursuing her vengeance would force overtake even Fate itself.",
-        
+        "If that glad message of your Bible were written in your faces, you would not need to demand belief in the authority of that book in such stiff-necked fashion.",
+        "This - is now my way - where is yours? Thus did I answer those who asked me *the way*. For [the way](https://www.youtube.com/watch?v=iQO9yRutpso) - it does not exist!",
         "Women can enter into a friendship with a man perfectly well, but to maintain it- a little physical antipathy is required.",
-        
+        "It is I, the ungodly Zarathustra, who says: 'Who is more ungodly than I, that I may rejoice in his teaching?",
         "Does not the discipline of the scientific spirit just commence when one no longer harbours any conviction?",
-        
+        "But I don't wish to hear anything more of things and questions which do not permit of being tested.",
+        "And how nicely can the bitch Sensuality knows how to beg for a piece of spirit, when a piece of flesh is denied her!",
         "In the latter case I warrant that nothing comes of it: for the great problems, granting that they let themselves be grasped at all, do not let themselves be held by toads and weaklings: that has ever been their taste- a taste also which they share with all high-spirited women.",
-
-        
+        "God is dead, and we have killed him."
+        "I want to learn more and more to see as beautiful what is necessary in things; then I shall be one of those who makes things beautiful. Amor fati: let that be my love henceforth! I do not want to wage war against what is ugly. I do not want to accuse; I do not even want to accuse those who accuse. Looking away shall be my only negation. And all in all and on the whole: some day I wish to be only a Yes-sayer",
         "Woman is so artistic.",
-        
+        "This however is my teaching: he who wishes one day to fly, must first learn standing and walking and running and climbing and dancing: - one does not fly into flying!",
+        "The coward does not know what it means to be alone: an enemy is always standing behind his chair.",
         "Women are all skilful in exaggerating their weaknesses, indeed they are inventive in weaknesses, so as to seem quite fragile ornaments to which even a grain of dust does harm ; their existence is meant to bring home to man's mind his coarseness, and to appeal to his conscience. They thus defend themselves against the strong and the law of the jungle",
         "Everything in woman is a riddle, and everything about woman has one solution - it is called pregnancy.",
         "The true man wants two things: danger and play. For that reason he wants woman, as the most dangerous plaything",
