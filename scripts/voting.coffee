@@ -1,13 +1,13 @@
 module.exports = (robot) ->
   robot.voting = {}
 
-  robot.respond /start vote (.+)$/i, (msg) ->
+  robot.hear /start vote (.+)$/i, (msg) ->
     startVote(msg)
 
-  robot.respond /start multivote (.+)$/i, (msg) ->
+  robot.hear /start multivote (.+)$/i, (msg) ->
     startVote(msg, true)
 
-  robot.respond /end vote/i, (msg) ->
+  robot.hear /end vote/i, (msg) ->
     if robot.voting.votes?
       console.log robot.voting.votes
 
@@ -25,14 +25,14 @@ module.exports = (robot) ->
     else
       msg.send "There is not a vote to end"
 
-  robot.respond /show choices/i, (msg) ->
+  robot.hear /show choices/i, (msg) ->
     sendChoices(msg)
 
-  robot.respond /show votes/i, (msg) ->
+  robot.hear /show votes/i, (msg) ->
     results = tallyVotes()
     sendChoices(msg, results)
 
-  robot.respond /vote (for )?(.+)$/i, (msg) ->
+  robot.hear /vote (for )?(.+)$/i, (msg) ->
     choice = null
 
     re = /\d{1,2}$/i
