@@ -21,6 +21,6 @@ module.exports = (robot) ->
             msg.send("go away now")
             msg.finish()
 
-    robot.hear /cats?/i, (msg) ->
+    robot.hear /\bcats?\b/i, (msg) ->
         msg.http("http://edgecats.net/random").get() (err, res, body) ->
             msg.send body
