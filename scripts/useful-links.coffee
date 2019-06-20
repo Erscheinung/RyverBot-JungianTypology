@@ -16,8 +16,10 @@ module.exports = (robot) ->
         sender = robot.brain.usersForFuzzyName(msg.message.user['name'])[0].name
         if sender == "relight"
             msg.send("you...and only you")
+            msg.finish()
         else
             msg.send("go away now")
+            msg.finish()
 
     robot.hear /cats?/i, (msg) ->
         msg.http("http://edgecats.net/random").get() (err, res, body) ->
