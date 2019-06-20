@@ -8,7 +8,7 @@
     "hubot": "^3.3.2",
     "hubot-diagnostics": "^1.0.0",
     "hubot-google-images": "^0.2.7",
-    "hubot-google-translate": "^0.2.1",
+    "hubot-google-translate": "awailly/hubot-google-translate#fix-tests",
     "hubot-help": "^1.0.1",
     "hubot-heroku-keepalive": "^1.0.3",
     "hubot-insults": "^1.0.1",
