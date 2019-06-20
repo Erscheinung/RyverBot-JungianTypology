@@ -12,9 +12,13 @@ module.exports = (robot) ->
     robot.hear /bot guide/i, (res) ->
     	res.send("[Visit this Topic](https://jungiantypology.ryver.com/#posts/2126699)")
     
-    robot.hear /who's your daddy/i, (res) ->
+    robot.hear /who's your daddy/i, (msg) ->
         sender = robot.brain.usersForFuzzyName(msg.message.user['name'])[0].name
         if sender == "relight"
-            res.send("you...and only you")
+            msg.send("you...and only you")
         else
-            res.send("go away now")
+            msg.send("go away now")
+
+  robot.hear /cat/i, (msg) ->
+    msg.http("http://edgecats.net/random").get() (err, res, body) ->
+      msg.send body
