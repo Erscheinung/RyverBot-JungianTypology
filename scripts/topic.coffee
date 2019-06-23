@@ -3,7 +3,7 @@ module.exports = (robot) ->
   robot.hear /create topic/i, (res) ->
       user = process.env.carl
       pass = process.env.Junglove1
-      ryverOrg = 'jungiantypology.ryver.com'
+      ryverOrg = 'jungiantypology'
       incRoomId = '1215430' # Modify this
       room = 'Random'
       auth = 'Basic ' + new Buffer(user+':'+pass).toString('base64')
