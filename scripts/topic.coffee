@@ -1,10 +1,10 @@
 module.exports = (robot) ->
 
-  robot.hear /@@create topic/i, (res) ->
+  robot.hear /create topic/i, (res) ->
       user = process.env.carl
       pass = process.env.Junglove1
       ryverOrg = 'jungiantypology'
-      incRoomId = '2130227' # Modify this
+      incRoomId = '1303067' # Modify this, 2130231 for JTFEED, 2130233 for theory, 2130234 for rss, 1303067 for rss?
       room = 'Theory'
       auth = 'Basic ' + new Buffer(user+':'+pass).toString('base64')
       payload = '{
