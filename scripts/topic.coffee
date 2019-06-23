@@ -1,11 +1,11 @@
 module.exports = (robot) ->
 
-  robot.hear /@@createtopic/i, (res) ->
+  robot.hear /create topic/i, (res) ->
       user = process.env.carl
       pass = process.env.Junglove1
       ryverOrg = ''
-      incRoomId = '0000000' # Modify this
-      room = 'Example Forum'
+      incRoomId = '1215430' # Modify this
+      room = 'Random'
       auth = 'Basic ' + new Buffer(user+':'+pass).toString('base64')
       payload = '{
         "subject":"Testing Bot Functionality",
