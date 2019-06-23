@@ -4,7 +4,7 @@ module.exports = (robot) ->
       user = process.env.carl
       pass = process.env.Junglove1
       ryverOrg = 'jungiantypology'
-      incRoomId = '1303067' # Modify this, 2130231 for JTFEED, 2130233 for theory, 2130234 for rss, 1303067 for rss?
+      # incRoomId = '1303067' # Modify this
       room = 'socioniks.net RSS'
       auth = 'Basic ' + new Buffer(user+':'+pass).toString('base64')
       payload = '{
@@ -13,10 +13,9 @@ module.exports = (robot) ->
         "outAssociations":{
           "results":[
             {
-              "inId":'+incRoomId+',
-              "inType":"Entity.Forum",
               "inSecured":true,
-              "inName":'+room+'
+              "inType":"Entity.Forum",
+              "inId":1303067
             }
           ]
         },
