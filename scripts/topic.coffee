@@ -5,7 +5,7 @@ module.exports = (robot) ->
       pass = process.env.Junglove1
       ryverOrg = 'jungiantypology'
       incRoomId = '1303067' # Modify this, 2130231 for JTFEED, 2130233 for theory, 2130234 for rss, 1303067 for rss?
-      room = 'Theory'
+      room = 'socioniks.net RSS'
       auth = 'Basic ' + new Buffer(user+':'+pass).toString('base64')
       payload = '{
         "subject":"Testing Bot Functionality",
