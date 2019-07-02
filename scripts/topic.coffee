@@ -4,8 +4,8 @@ module.exports = (robot) ->
       user = process.env.carl
       pass = process.env.Junglove1
       ryverOrg = 'jungiantypology'
-      # incRoomId = '1303067' # Modify this
-      room = 'socioniks.net RSS'
+      incRoomId = '1303067' # Modify this
+      room = 'socioniks.net Feed'
       auth = 'Basic ' + new Buffer(user+':'+pass).toString('base64')
       payload = '{
         "subject":"Testing Bot Functionality",
@@ -15,7 +15,8 @@ module.exports = (robot) ->
             {
               "inSecured":true,
               "inType":"Entity.Forum",
-              "inId":1303067
+              "inId":'+incRoomId+',
+              "inName":'+room+'
             }
           ]
         },
