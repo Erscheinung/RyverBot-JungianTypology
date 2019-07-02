@@ -1,6 +1,6 @@
 module.exports = (robot) ->
 
-  robot.hear /@@create topic/i, (res) ->
+  robot.hear /create topic/i, (res) ->
       user = process.env.carl
       pass = process.env.Junglove1
       ryverOrg = 'jungiantypology'
