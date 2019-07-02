@@ -26,3 +26,4 @@ module.exports = (robot) ->
       .headers(Authorization: auth, 'Content-Type': 'application/json', 'Accept': 'application/json')
       .post(payload) (err, response, body) ->
         robot.logger.debug(response)
+        robot.logger.debug(body)
