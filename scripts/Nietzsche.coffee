@@ -252,8 +252,7 @@ module.exports = (robot) ->
         "In praise there is more obtrusiveness than in blame.",
         "Pity has an almost ludicrous effect on a man of knowledge, like tender hands on a Cyclops."
         ,
-        "One occasionally embraces some one or other, out of love to mankind (because one cannot embrace all); but this is what one must never confess to the individual."
-        ,
+        "One occasionally embraces some one or other, out of love to mankind (because one cannot embrace all); but this is what one must never confess to the individual.",
         "One does not hate as long as one disesteems, but only when one esteems equal or superior."
         ,
         "Ye Utilitarians--ye, too, love the UTILE only as a VEHICLE for your inclinations,--ye, too, really find the noise of its wheels insupportable!"
@@ -315,7 +314,7 @@ module.exports = (robot) ->
         "He, however, who is obtrusive with his eyes as a discerner, how can he ever see more of anything than its foreground!",
         "—Deeper down into pain than I ever ascended, even into its darkest flood! So willeth my fate. Well! I am ready.",
         "Whence come the highest mountains? so did I once ask. Then did I learn that they come out of the sea.",
-        "LOVE is the danger of the lonesomest one, love to anything, IF IT ONLY LIVE! Laughable, verily, is my folly and my modesty in love!—",
+        "LOVE is the danger of the lonesomest one, love to anything, IF IT ONLY LIVE! Laughable, verily, is my folly and my modesty in love!—"
     ]
     
     robot.hear /Nietzsche/i, (res) ->
