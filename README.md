@@ -1,3 +1,16 @@
+# Hassle-free deploying to Ryver using Heroku
+
+Ignore startup script instructions on the hubot ryver github repo. You should have hubot
+already installed hubot using
+`yo hubot --adapter ryver` 
+to continue. Create a heroku app and add a git remote 
+to it. Push your repo to that remote and check that the deploying is verified
+in the console. Set environment variables using: 
+`heroku:config set HUBOT_RYVER_USERNAME='username-here'`
+`heroku:config set HUBOT_RYVER_PASSWORD='password-here'`
+`heroku:config set HUBOT_RYVER_APP_URL='team-url.ryver.com'`
+`heroku:config set HUBOT_RYVER_JOIN_FORUMS='yes/no'`
+
 # carl
 
 carl is a chat bot built on the [Hubot][hubot] framework. It was
