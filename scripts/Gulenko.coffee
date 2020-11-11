@@ -39,6 +39,5 @@ module.exports = (robot) ->
     ]
 
     robot.hear /gulenko/i, (res) ->
-        if(Math.random()>0.8){
+        if Math.random()>0.8
             res.send(retort[Math.floor(Math.random()* retort.length)])
-        } 
