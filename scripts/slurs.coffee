@@ -6,6 +6,6 @@ module.exports = (robot) ->
   robot.hear /\bhomo\b/i, (res) -> res.send(warning)
   robot.hear /faggot/i, (res) -> res.send(warning)
   robot.hear /\bfag\b/i, (res) -> res.send(warning)
-  robot.hear /nigger/i, (res) -> res.send(warning)
+  robot.hear /\bnigger\b/i, (res) -> res.send(warning)
   robot.hear /nigga/i, (res) -> res.send(warning)
   robot.hear /nibba/i, (res) -> res.send(warning)
