@@ -40,5 +40,5 @@ retort = [
 
 robot.hear /gulenko/i, (res) ->
     if(Math.random()>0.8){
-        res.send(retort[Math.floor(Math.random()* quote.length)])
+        res.send(retort[Math.floor(Math.random()* retort.length)])
     } 
