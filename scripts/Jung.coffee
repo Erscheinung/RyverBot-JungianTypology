@@ -116,4 +116,4 @@ module.exports = (robot) ->
 
     robot.hear /jung/i, (res) ->
         if Math.random()<0.3
-        res.send(quote[Math.floor(Math.random()* quote.length)])
+            res.send(quote[Math.floor(Math.random()* quote.length)])
