@@ -26,7 +26,7 @@ module.exports = (robot) ->
         "Hulenko once told me he was a racist. I did Nazi that coming.",
         "To discredit Model G, we shall first have to discredit Hulenko. And whenever Hulenko opens his mouth, he discredits himself even more.",
         "Must one weep that Hulenkians are misguided? Or must one look away?  I do not want to wage war against what is ugly. I do not want to accuse; I do not even want to accuse those who accuse. Looking away shall be my only negation. And all in all and on the whole: some day I wish to be only a Hulenkian.",
-        "Haven't you heard? Hulenko passed away!"
+        "Haven't you heard? Hulenko passed away!",
         "Exactly. Hulenko is wrong.",
         "Hulenko is a misogynist. It is true.",
         "Гуленко - сука лазанья",
