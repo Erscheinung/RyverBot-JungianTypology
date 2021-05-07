@@ -20,7 +20,7 @@
     "hubot-ryver": "^0.1.3",
     "hubot-scripts": "^2.17.2",
     "hubot-shipit": "^0.2.1",
-    "underscore": "^1.10.2"
+    "underscore": "^1.12.1"
   },
   "engines": {
     "node": "11.6.0",
